@@ -1,19 +1,6 @@
-Powstały skrypt jest odpowiedzią na zadanie o treści:
+###Script is answer for excercise presented below:
 
-Zadanie: 
-Dane wejściowe należy rozbić na 4 kolumny: 
-‐ zachowując porządek alfabetyczny grup, 
-‐ nie rozrywając grup na 2 lub więcej kolumn – jedna grupa musi w całości zmieścić się w jednej kolumnie, 
-‐ wstawiając między grupami jedną linię pustą (po ostatniej kategorii w kolumnie nie trzeba wstawiać pustej linii). 
- 
- 
-Problem: 
-Kategorie w grupach należy rozbić na 4 kolumny, tak aby te kolumny były jak najbardziej zrównoważone pod względem ilości znajdujących 
-się w nich kategorii( i odstępów pomiędzy nimi), czyli dążymy do tego aby kolumny były jak najkrótsze. 
-
-Script is answer for excercise presented below:
-
-## Excercise:
+#### Excercise:
 
 Input data has to be divided among 4 columns.
 - data has to be sorted alphabetically.
@@ -21,13 +8,13 @@ Input data has to be divided among 4 columns.
 - you have to put one empty cell between groups if they are in the same column.
 - after last group in a column you don't have to put empty cell.
 
-###Issues:
+#####Issues:
 Input data has to be divided among 4 columns so as to be well balanced. You should aim at creating as short column as you can.
 
-###Example:
+#####Example:
 
-####Input:
-
+######Input:
+```
 A1 
  
 B1 
@@ -42,16 +29,17 @@ D3
  
 E1 
 E2 
-
-####Result:
-
+```
+######Result:
+|    |    |    |    |    
+|:---|:--:|:--:|---:|
 | A1 | C1 | D1 | E1 |
 |    | C2 | D2 | E2 |
 | B1 |    | D3 |    |
 | B2 |    |    |    |
 
-####Other Input:
-
+######Other Input:
+```
 Acrobat 
 Acrobat 
 Acrobat 
@@ -122,3 +110,27 @@ Premiere
 Premiere 
 Premiere 
 Premiere 
+```
+
+######Result:
+
+| | | |
+|:---|:--:|:--:|---:|
+|Acrobat    |CS       |Flash    |Lightroom|
+|Acrobat    |CS       |Flash    |         |
+|Acrobat    |CS       |Flash    |PageMaker|
+|Acrobat    |CS       |Flash    |PageMaker|
+|Acrobat    |CS       |Flash    |PageMaker|
+|Acrobat    | 	       |		       |PageMaker|
+|Acrobat    |Director |FontFolio|PageMaker|
+|	          |Director |FontFolio|	        |
+|Captivate  |Director |FontFolio|Premiere |
+|	          |Director |FontFolio|Premiere |
+|ColdBuilder|Director |FontFolio|Premiere |
+|	          |Director | 		      |Premiere |
+|ColdFusion |Director |Freehand |Premiere |
+|ColdFusion |Director |Freehand | 	       |
+|ColdFusion |         |Freehand |         |	
+|	          |eLearning|         | 		      |
+|Contribute | 		      |InDesign |	        |
+|Contribute |Fireworks|InDesign |	        |
