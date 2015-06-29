@@ -31,12 +31,12 @@ E1
 E2 
 ```
 ######Result:
-|    |    |    |    |    
-|:---|:--:|:--:|---:|
+
 | A1 | C1 | D1 | E1 |
-|    | C2 | D2 | E2 |
-| B1 |    | D3 |    |
-| B2 |    |    |    |
+|----|----|----|----|
+|    |**C2**|**D2**|**E2**|
+|**B1**|    |**D3**|    |
+|**B2**|    |    |    |
 
 ######Other Input:
 ```
@@ -114,23 +114,22 @@ Premiere
 
 ######Result:
 
-| | | |
-|:---|:--:|:--:|---:|
-|Acrobat    |CS       |Flash    |Lightroom|
-|Acrobat    |CS       |Flash    |         |
-|Acrobat    |CS       |Flash    |PageMaker|
-|Acrobat    |CS       |Flash    |PageMaker|
-|Acrobat    |CS       |Flash    |PageMaker|
-|Acrobat    | 	       |		       |PageMaker|
-|Acrobat    |Director |FontFolio|PageMaker|
-|	          |Director |FontFolio|	        |
-|Captivate  |Director |FontFolio|Premiere |
-|	          |Director |FontFolio|Premiere |
-|ColdBuilder|Director |FontFolio|Premiere |
-|	          |Director | 		      |Premiere |
-|ColdFusion |Director |Freehand |Premiere |
-|ColdFusion |Director |Freehand | 	       |
-|ColdFusion |         |Freehand |         |	
-|	          |eLearning|         | 		      |
-|Contribute | 		      |InDesign |	        |
-|Contribute |Fireworks|InDesign |	        |
+|Acrobat|CS|Flash|Lightroom|
+|:----------:|:-----:|:-----:|:-----:|
+|**Acrobat**|**CS**|**Flash**|         |
+|**Acrobat**|**CS**|**Flash**|**PageMaker**|
+|**Acrobat**|**CS**|**Flash**|**PageMaker**|
+|**Acrobat**|**CS**|**Flash**|**PageMaker**|
+|**Acrobat**| 	    |		       |**PageMaker**|
+|**Acrobat**|**Director**|**FontFolio**|**PageMaker**|
+|	          |**Director**|**FontFolio**|	        |
+|**Captivate**|**Director**|**FontFolio**|**Premiere**|
+|	          |**Director**|**FontFolio**|**Premiere**|
+|**ColdBuilder**|**Director**|**FontFolio**|**Premiere**|
+|	          |**Director**| 		      |**Premiere**|
+|**ColdFusion** |**Director**|**Freehand**|**Premiere**|
+|**ColdFusion** |**Director**|**Freehand**| 	       |
+|**ColdFusion** |         |**Freehand**|         |	
+|	          |**eLearning**|         | 		      |
+|**Contribute** | 		      |**InDesign**|	        |
+|**Contribute** |**Fireworks**|**InDesign**|	        |
